@@ -9,8 +9,3 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # Build settings
 markdown: kramdown
-
-
-facebook_gallery: Vegyes
-    username:gabor.koncz.10
-    
