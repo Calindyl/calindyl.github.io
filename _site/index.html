@@ -55,11 +55,23 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+          <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-  
-<iframe scrolling="no" marginheight="0" frameborder="0" width="551" style="height: 582px;" src="http://facebookgalleria.com/gallery.php?id=965692910120675&exclude=138137092876265&rows=4&margin=10&cols=3&width=170&font_size=11&title_color=000000&hide_next_back=0&share_buttons=1&shape=rectangle&frame=1&token=b8f1d162-6548-11e5-a7a0-db9a7167b245"></iframe>
+    <script>
+  Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
+  Galleria.run('#galleria', {
+   facebook: 'album:138137092876265',
+   width: 745,
+   height: 550,
+   lightbox: true,
+   facebookOptions: {
+     max: 30, // optional override for limit of 40 photos on an album
+     facebook_access_token: '1598995577028530|iFwt2oU_JfeQn-nKWaybBxWF87c'
+   }
+  });
+  </script>
+
+<div id="galleria"></div>
 
   <ul class="post-list">
     
@@ -109,6 +121,10 @@
     </div>
 
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/galleria/galleria-1.4.2.min.js"></script>
+  <script src="js/galleria/plugins/facebook/galleria.facebook.js"></script>
 
 </footer>
 
